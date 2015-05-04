@@ -1,0 +1,497 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BrickTime ! Le casse-brique temporel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <!--Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <!--Bootstrap-->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <!-- Custom styles -->
+    <link href="css/custom.css" rel="stylesheet" media="screen">
+    <link href="css/animations.css" rel="stylesheet" media="screen">
+    <!-- Modernizr -->
+    <script src="js/modernizr.custom.js"></script>
+    <!--[if lt IE 9]>
+      <link href="css/ie8.css" rel="stylesheet" media="screen">
+      <script src="js/html5shiv.js" type="text/javascript"></script>
+    <![endif]-->
+    <!--Background Images-->
+    <style>
+      .bg-image1 { background: url(img/bgs/1.jpg) no-repeat; }
+      .bg-image2 { background: url(../img/bgs/2.jpg) no-repeat; }
+      .bg-image3 { background: url(../img/bgs/3.jpg) no-repeat; }
+      .bg-image4 { background: url(../img/bgs/4.jpg) no-repeat; }
+      .bg-image5 { background: url(../img/bgs/5.jpg) no-repeat; }
+      .bg-image6 { background: url(../img/bgs/6.jpg) no-repeat; }
+    </style>
+  </head>
+
+  <!--Body-->
+  <body>
+    <div id="pt-main" class="pt-perspective">
+      
+      <!--Home Screen-->
+      <article class="pt-page pt-page-1 bg-image1" id="home">
+        <div class="outer-wrapper">
+          <!--Header-->
+          <header class="row-fluid">
+            <div class="container">
+              <div class="span8 logo">
+                <h1>Brick Time</h1>
+              </div>
+             
+            </div>
+          </header>
+          <!--Navigation-->
+          <nav class="navi row-fluid">
+            <div class="container">
+              <div class="span12 clearfix">
+                <div class="span4">
+                  <a class="small-navi about page-transition" href="#about" onclick="gotoPageWithTrans1(1)" title="About Us"><i class="navi-icons about-icon"></i>Game Rules</a>
+                  <a class="small-navi team page-transition" href="#team" onclick="gotoPageWithTrans1(2)" title="Our Team"><i class="navi-icons team-icon"></i>Our Team</a>
+                 <a class="middle-navi resume" href="#contacts" onclick="gotoPageWithTrans1(3)" title="Contacts"><i class="navi-icons resume-icon"></i>Shop</a>
+                  
+                </div>
+                <div class="span4">
+                  <a class="big-navi works page-transition" href="#works" onclick="gotoPageWithTrans1(4)" title="Game"><i class="navi-icons works-icon"></i>Game</a>
+                </div>
+                <div class="span4">
+                  <a class="middle-navi contacts page-transition" href="#contacts" onclick="gotoPageWithTrans1(5)" title="Contacts"><i class="navi-icons contacts-icon"></i>Contacts</a>
+                  <a class="small-navi blog page-transition" href="#blog" onclick="gotoPageWithTrans1(6)" title="Blog"><i class="navi-icons blog-icon"></i>Log In</a>
+                  <a class="small-navi feedback page-transition" href="#feedback" onclick="gotoPageWithTrans1(7)" title="Feedback"><i class="navi-icons feedback-icon"></i>Feedback</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <section class="container">
+            <div class="clearfix">
+              <div class="tw-feed">
+                <p>Oses l'aventure du temps, remontes la montre de l'époque et brises les règles du jeu pour trouver la brique de l'avenir.</p>
+              </div>
+            </div>
+          </section>
+          <div class="push"><!--//--></div><!--Ryan Fait's Sticky Footer-->
+        </div> 
+        <!--Footer-->
+        <footer>
+          <div class="container">
+            <p class="dark">Copyright &copy; Brick Time inc., 2014</p>
+          </div>
+        </footer>
+    </article>
+        
+      <!--Game Rules Screen-->
+      <article class="pt-page pt-page-2" id="gamesrules">
+        <div class="outer-wrapper green1-bg">
+          <!--Header-->
+          <header class="row-fluid">
+            <div class="container">
+              <div class="span8 relative">
+                <div class="page-navi">
+                  <a class="home-page page-transition" href="#home" onclick="gotoPageWithTrans2(0)" title="Go Home"></a>
+                  <a class="prev-page page-transition" href="#gamerules" onclick="gotoPageWithTrans3(6)" title="Go To Previous Page"></a>
+                </div>
+                <h1>Game Rules</h1>
+                <nav class="submenu page2-submenu">
+                  <ul>
+                    <li class="current"><a href="#gamerules">Game Rules</a></li>
+                    <li class="inline"><a href="#team" class="page-transition" onclick="gotoPageWithTrans4(2)">Our Team</a></li>
+                    <li><a href="#game" class="page-transition" onclick="gotoPageWithTrans4(3)">Game</a></li>
+                    <li><a href="#contacts" class="page-transition" onclick="gotoPageWithTrans4(4)">Contact Us</a></li>
+                    <li><a href="#login" class="page-transition" onclick="gotoPageWithTrans4(5)">Log in</a></li>
+                    <li><a href="#feedback" class="page-transition" onclick="gotoPageWithTrans4(6)">Feedback</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </header>        
+          <!--Content-->
+          <section class="row-fluid">
+            <div class="container">
+              <div class="quotation span12 clearfix">
+              <div class="quotation-mark"></div>
+                
+              <p>Comme son nom l’indique, le but dans une partie de Brick Time est de casser toutes les briques qui s’affichent sur l’écran.</p>
+              <p>Les jeux de casses-briques présentent la même règle de base. Il s’agit de casser un mur de briques en lui tirant dessus. 
+                Généralement, le joueur utilise une « raquette » visible sur le bas de l’écran qu’il peut déplacer horizontalement, vers la gauche ou vers la droite.
+                 Il tire une ou plusieurs briques du mur à l’aide d’une « balle » et chaque brique qui se détache du mur vaut un point défini.</p>
+                 <p>
+                  Le joueur perd quand il n’arrive pas à toucher des briques, ou quand il atteint des briques qui ne servent pas, ou encore quand, au-delà d’un délai de jeu, il reste encore des briques non touchées.<br/>
+                </p>
+<p>A cette règle de base s’ajoutent des règles spécifiques à chaque variante, l’objectif étant de rendre le jeu plus ludique et amusant. Pour instaurer des niveaux de jeu par exemple, on augmente le nombre de briques à rattraper, des options de bonnes ou mauvaises briques constitutives du mur, une augmentation/ diminution de la taille de la raquette afin de favoriser l’attaque…
+La partie prend fin quand le joueur arrive à éclater toutes les briques du jeu. Le joueur gagne s’il parvient aussi à cumuler un certain nombre de points, définis par chaque brique. Souvent, les briques ont des couleurs différentes et détiennent des valeurs spécifiques. Le joueur est game over s’il reste des briques en jeu après le délai.
+</p>
+
+        <span class="quotation-author">Adrien,Mélissa,Katarzyna,Sylvain,Mélisa</span>
+            </div>
+            </div>
+          </section>
+          <div class="push"><!--//--></div><!--Ryan Fait's Sticky Footer-->
+        </div>
+        <!--Footer-->
+        <footer>
+          <div class="container">
+            <p>Copyright &copy; Brick Time., 2014</p>
+          </div>
+        </footer>
+      </article>
+      
+
+      
+
+
+      <!--Our Team Screen-->
+      <article class="pt-page pt-page-3" id="team">
+        <div class="outer-wrapper green2-bg">
+          <!--Header-->
+          <header class="row-fluid">
+            <div class="container">
+              <div class="span8 relative">
+                <div class="page-navi">
+                  <a class="home-page page-transition" href="#home" onclick="gotoPageWithTrans2(0)" title="Go Home"></a>
+                  <a class="prev-page page-transition" href="#about" onclick="gotoPageWithTrans3(1)" title="Go To Previous Page"></a>
+                </div>
+                <h1>Our Team</h1>
+                <nav class="submenu page3-submenu">
+                  <ul>
+                    <li><a href="#gamerules" class="page-transition" onclick="gotoPageWithTrans5(1)">Game Rules</a></li>
+                    <li class="current"><a href="#team">Our Team</a></li>
+                    <li class="inline"><a href="#game" class="page-transition" onclick="gotoPageWithTrans4(3); $($works.attr('href')).offset().top">Game</a></li>
+                    <li><a href="#contacts" class="page-transition" onclick="gotoPageWithTrans4(4)">Contact Us</a></li>
+                    <li><a href="#login" class="page-transition" onclick="gotoPageWithTrans4(5)">Log in</a></li>
+                    <li><a href="#feedback" class="page-transition" onclick="gotoPageWithTrans4(6)">Feedback</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </header>
+          <!--Content-->
+          <section class="row-fluid">
+            <div class="container">
+              <div class="span12">
+                <p style="text-align:justify;">Nous sommes étudiants en première année de Supinfo. Jeunes et dynamiques, notre équipe se compose du chef de groupe Adrien Montagu créateur du casse brique, accompagné de Sylain Vallée, en qualité de C developer. Puis l'autre partie de l'équipe qui se composera de Melissa Chanu en tant que web designer, Melissa Abderrahim et Katarzyna Karpinska en tant que Web developers.
+<br/>Nous sommes heureux de vous annoncer un nouveau genre de casse brique, le Brick Time !
+</p>
+              </div>
+            </div>
+            <div class="container" style="width:980px;">
+              <div class="span4 team-mate">
+                <span class="figcap"></span>
+                <img src="img/team/montagu.jpg" alt="Adrien Montagu">
+                  <h3>Adrien Montagu</h3>
+                  <h4>C developer</h4>
+                </div>
+              <div class="span4 team-mate">
+                <span class="figcap"></span>
+                 <img src="img/team/abderahim.jpg" alt="Mélissa Abderahim">
+                  <h3>Mélissa Abderahim</h3>
+                  <h4>Web developer</h4>
+              </div>
+              <div class="span4 team-mate">
+                <span class="figcap"></span>
+                <img src="img/team/karpinska.jpg" alt="Katarzyna Karpinska">
+                  <h3>Katarzyna Karpinska</h3>
+                  <h4>Graphic Designer and Web developer</h4>
+              </div>
+              <div class="span4 team-mate">
+                <span class="figcap"></span>
+                  <img src="img/team/chanu.jpg" alt="Mélissa Chanu">
+                  <h3>Mélissa Chanu</h3>
+                  <h4>Web developer</h4>
+              </div>
+              <div class="span4 team-mate">
+                <span class="figcap"></span>
+                  <img src="img/team/vallee.jpg" alt="Sylvain Vallée">
+                  <h3>Sylvain Vallée</h3>
+                  <h4>C developer</h4>
+              </div>
+
+            </div>
+          </section>
+          <div class="push"><!--//--></div><!--Ryan Fait's Sticky Footer-->
+        </div>
+        <!--Footer-->
+        <footer>
+          <div class="container">
+            <p>Copyright &copy; Break Time inc., 2014</p>
+          </div>
+        </footer>
+      </article>
+      
+
+      <!--Shop Screen-->
+      <article class="pt-page pt-page-2" id="shop">
+        <div class="outer-wrapper green1-bg">
+          <!--Header-->
+          <header class="row-fluid">
+            <div class="container">
+              <div class="span8 relative">
+                <div class="page-navi">
+                  <a class="home-page page-transition" href="#home" onclick="gotoPageWithTrans2(0)" title="Go Home"></a>
+                  <a class="prev-page page-transition" href="#gamerules" onclick="gotoPageWithTrans3(6)" title="Go To Previous Page"></a>
+                </div>
+                <h1>Shop</h1>
+                <nav class="submenu page2-submenu">
+                  <ul>
+                    <li class="current"><a href="#shop">Shop</a></li>
+                    <li class="inline"><a href="#team" class="page-transition" onclick="gotoPageWithTrans4(2)">Our Team</a></li>
+                    <li><a href="#game" class="page-transition" onclick="gotoPageWithTrans4(3)">Game</a></li>
+                    <li><a href="#contacts" class="page-transition" onclick="gotoPageWithTrans4(4)">Contact Us</a></li>
+                    <li><a href="#login" class="page-transition" onclick="gotoPageWithTrans4(5)">Log in</a></li>
+                    <li><a href="#feedback" class="page-transition" onclick="gotoPageWithTrans4(6)">Feedback</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </header>        
+          <!--Content-->
+          <section class="row-fluid">
+            <div class="container">
+              <div class="quotation span12 clearfix">
+              <div class="quotation-mark"></div>
+                <p>La boutique pour acheter vos objets....</p>
+                <span class="quotation-author">Adrien,Mélissa,Katarzyna,Sylvain,Mélisa</span>
+            </div>
+            </div>
+          </section>
+          <div class="push"><!--//--></div><!--Ryan Fait's Sticky Footer-->
+        </div>
+        <!--Footer-->
+        <footer>
+          <div class="container">
+            <p>Copyright &copy; Brick Time., 2014</p>
+          </div>
+        </footer>
+      </article>
+      <!--Game Screen-->
+      <article class="pt-page pt-page-4" id="works">
+        <div class="outer-wrapper blue-bg" id="gallery">
+          <!--Header-->
+          <header class="row-fluid">
+            <div class="container">
+              <div class="span8 relative">
+                <div class="page-navi">
+                  <a class="home-page page-transition" href="#home" onclick="gotoPageWithTrans2(0)" title="Go Home"></a>
+                  <a class="prev-page page-transition" href="#team" onclick="gotoPageWithTrans3(2)" title="Go To Previous Page"></a>
+                </div>
+                <h1>Game</h1>
+                <nav class="submenu page4-submenu">
+                  <ul>
+                    <li><a href="#gamerules" class="page-transition" onclick="gotoPageWithTrans5(1)">Game Rules</a></li>
+                    <li><a href="#team" class="page-transition" onclick="gotoPageWithTrans5(2)">Our Team</a></li>
+                    <li class="current"><a href="#works">Game</a></li>
+                    <li class="inline"><a href="#contacts" class="page-transition" onclick="gotoPageWithTrans4(4)">Contact Us</a></li>
+                    <li><a href="#login" class="page-transition" onclick="gotoPageWithTrans4(5)">Log in</a></li>
+                    <li><a href="#feedback" class="page-transition" onclick="gotoPageWithTrans4(6)">Feedback</a></li>
+                  </ul>
+                </nav>
+              </div>
+              </div>
+          </header>
+          <!--Content-->
+          <section class="row-fluid">
+            <div class="container">
+              <div class="span12">
+                <p>Brick Time -  choisis ton époque et brise les briques du temps.</p>
+                <div id="listener">
+                   <embed name="test" id="sdl" width="1200" height="600" src="jeu.nmf" type="application/x-nacl" />
+                  </div>
+              </div>
+            </div>
+          </section>
+          <div class="push"><!--//--></div><!--Ryan Fait's Sticky Footer-->
+        </div>
+        <!--Footer-->
+        <footer>
+          <div class="container">
+            <p>Copyright &copy; Brick Time inc., 2014</p>
+          </div>
+        </footer>
+      </article>
+      
+      <!--Contact Us Screen-->
+      <article class="pt-page pt-page-5" id="contacts">
+        <div class="outer-wrapper pink-bg">
+          <!--Header-->
+          <header class="row-fluid">
+            <div class="container">
+              <div class="span8 relative">
+                <div class="page-navi">
+                  <a class="home-page page-transition" href="#home" onclick="gotoPageWithTrans2(0)" title="Go Home"></a>
+                  <a class="prev-page page-transition" href="#works" onclick="gotoPageWithTrans3(3)" title="Go To Previous Page"></a>
+                </div>
+                <h1>Contact Us</h1>
+                <nav class="submenu page5-submenu">
+                  <ul>
+                    <li><a href="#gamerules" class="page-transition" onclick="gotoPageWithTrans5(1)">Game Rules</a></li>
+                    <li><a href="#team" class="page-transition" onclick="gotoPageWithTrans5(2)">Our Team</a></li>
+                    <li><a href="#game" class="page-transition" onclick="gotoPageWithTrans5(3)">Game</a></li>
+                    <li class="current"><a href="#contacts">Contact Us</a></li>
+                    <li class="inline"><a href="#login" class="page-transition" onclick="gotoPageWithTrans4(5)">Log In</a></li>
+                    <li><a href="#feedback" class="page-transition" onclick="gotoPageWithTrans4(6)">Feedback</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </header>
+          <!--Content-->
+          <section class="row-fluid">
+            <div class="container">
+              <div class="span4 addspace">
+                <h2>Notre jeu vous a plu ?</h2>
+                <p>Vous pourrez nous contacter par mail, nous répondrons a vos questions !"</p>
+                <p>Vous pouvez aussi nous rendre visite dans nos locaux : 40e étage Tour Montparnasse, 33 avenue du Maine, 75015 Paris<br/>FRANCE</p>
+              </div>
+              <div class="span4 addspace">
+                <h2>Email</h2>
+                <p>Support: <a href="mailto:bricktime@hotmail.com" title="mailto:bricktimet@hotmail.com">bricktime@hotmail.com</a></p>
+              </div>
+            </div>
+          </section>
+          <div class="push"><!--//--></div><!--Ryan Fait's Sticky Footer-->
+        </div>
+        <!--Footer-->
+        <footer>
+          <div class="container">
+            <p>Copyright &copy; Brick Time inc., 2014</p>
+          </div>
+        </footer>
+      </article>
+      
+      
+      <!--Log In Screen-->
+      <article class="pt-page pt-page-6" id="login">
+        <div class="outer-wrapper orange-bg">
+          <!--Header-->
+          <header class="row-fluid">
+            <div class="container">
+              <div class="span8 relative">
+                <div class="page-navi">
+                  <a class="home-page page-transition" href="#home" onclick="gotoPageWithTrans2(0)" title="Go Home"></a>
+                  <a class="prev-page page-transition" href="#contacts" onclick="gotoPageWithTrans3(4)" title="Go To Previous Page"></a>
+                </div>
+                <h1>Log In</h1>
+                <nav class="submenu page6-submenu">
+                  <ul>
+                    <li><a href="#team" class="page-transition" onclick="gotoPageWithTrans5(2)">Our Team</a></li>
+                    <li><a href="#game" class="page-transition" onclick="gotoPageWithTrans5(3)">Game</a></li>
+                    <li><a href="#contacts" class="page-transition" onclick="gotoPageWithTrans5(4)">Contact Us</a></li>
+                    <li class="current"><a href="#login">Log In</a></li>
+                    <li class="inline"><a href="#feedback" class="page-transition" onclick="gotoPageWithTrans4(6)">Feedback</a></li>
+                    <li><a href="#gamerules" class="page-transition" onclick="gotoPageWithTrans5(1)">Game Rules</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </header>
+          <!--Content-->
+          <section class="row-fluid">
+            <div class="container blogpost-row">
+              <div class="span6">
+                <a class="blogpost page-transition" href="#blog-single" onclick="gotoPageWithTrans6(7)">
+                  <span class="figcap"></span>
+                  <h2>Log in with your campus id</h2>
+                </a>
+              </div>
+              
+            </div>
+            
+          </section>
+          <div class="push"><!--//--></div><!--Ryan Fait's Sticky Footer-->
+        </div>
+        <!--Footer-->
+        <footer>
+          <div class="container">
+            <p>Copyright &copy; Brick Time inc., 2014</p>
+          </div>
+        </footer>
+      </article>
+      
+      <!--Feedback Screen-->
+      <article class="pt-page pt-page-7" id="feedback">
+        <div class="outer-wrapper brown-bg">
+          <!--Header-->
+          <header class="row-fluid">
+            <div class="container">
+              <div class="span8 relative">
+                <div class="page-navi">
+                  <a class="home-page page-transition" href="#home" onclick="gotoPageWithTrans2(0)" title="Go Home"></a>
+                  <a class="prev-page page-transition" href="#blog" onclick="gotoPageWithTrans3(5)" title="Go To Previous Page"></a>
+                </div>
+                <h1>Feedback</h1>
+                <nav class="submenu page6-submenu">
+                  <ul>
+                    <li><a href="#game" class="page-transition" onclick="gotoPageWithTrans5(3)">Game</a></li>
+                    <li><a href="#contacts" class="page-transition" onclick="gotoPageWithTrans5(4)">Contact Us</a></li>
+                    <li><a href="#login" class="page-transition" onclick="gotoPageWithTrans5(5)">Log In</a></li>
+                    <li class="current"><a href="#feedback">Feedback</a></li>
+                    <li class="inline"><a href="#gamerules" class="page-transition" onclick="gotoPageWithTrans5(1)">Game Rules</a></li>
+                    <li><a href="#team" class="page-transition" onclick="gotoPageWithTrans5(2)">Our Team</a></li>
+                  </ul>
+              </nav>
+            </div>
+              </div>
+          </header>
+          <!--Content-->
+          <section class="row-fluid">
+            <div class="container clearfix">
+              <form method="post" name="feedback-form" id="feedback-form" class="addspace clearfix">
+                <fieldset class="span6">
+                  <span id="sprytextfield1">
+                    <input type="text" name="name" id="name">
+                  </span>
+                  <span id="sprytextfield2">
+                    <input type="text" name="email" id="email">
+                  </span>
+                </fieldset>
+                <fieldset class="span6">
+                  <span id="sprytextarea1">
+                    <textarea name="message" id="message" cols="45" rows="5"></textarea>
+                  </span>
+                </fieldset>
+                <input name="submit" type="submit" class="submit" id="submit" value="Submit">
+                <div id="success"></div>
+              </form>
+            </div>
+          </section>
+          <div class="push"><!--//--></div><!--Ryan Fait's Sticky Footer-->
+        </div>
+        <!--Footer-->
+        <footer>
+          <div class="container">
+            <p>Copyright &copy; Brick Time inc., 2014</p>
+          </div>
+        </footer>
+      </article>
+      <div class="push"><!--//--></div><!--Ryan Fait's Sticky Footer-->
+        </div>
+        <!--Footer-->
+        <footer>
+          <div class="container">
+            <p>Copyright &copy; Brick Time inc., 2014</p>
+          </div>
+        </footer>
+      </article>
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script src="js/pagetransitions.js" type="text/javascript"></script>
+    <script src="js/validation.js" type="text/javascript"></script>
+    <script src="js/grid.js"></script>
+    <script src="js/scripts.js"></script>
+      
+    <!-- Form validation -->
+    <script type="text/javascript">
+      var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1", "none", {hint:"Your Name *", validateOn:["change"]});
+      var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2", "email", {hint:"Your Email *", validateOn:["change"]});
+      var sprytextfield3 = new Spry.Widget.ValidationTextField("sprytextfield3", "none", {hint:"Your Name *", validateOn:["change"]});
+      var sprytextfield4 = new Spry.Widget.ValidationTextField("sprytextfield4", "email", {hint:"Your Email *", validateOn:["change"]});
+      var sprytextarea1 = new Spry.Widget.ValidationTextarea("sprytextarea1", {hint:"Any comment *", validateOn:["change"]});
+      var sprytextarea2 = new Spry.Widget.ValidationTextarea("sprytextarea2", {hint:"Any comment *", validateOn:["change"]});
+    </script>
+  </body>
+</html>

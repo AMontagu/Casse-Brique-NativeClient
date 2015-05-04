@@ -1,0 +1,26 @@
+NAME	=	jeu.nexe
+
+SRCS	=	main.c	\
+		bonus.c \
+		deplacements.c \
+		editeur.c \
+		fichier.c \
+		jouer.c \
+		VetD.c \
+		
+
+OBJS	=	$(SRCS:.c=.o)
+
+srcdir  = ./
+ 
+CC      = 	$(NACL_SDK_ROOT)/toolchain/linux_x86_newlib/bin/x86_64-nacl-gcc
+CFLAGS  =	-I $(NACL_SDK_ROOT)/toolchain/linux_x86_newlib/x86_64-nacl/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -DHAVE_OPENGL -I $(NACL_SDK_ROOT)/include
+LDFLAGS =	-L $(NACL_SDK_ROOT)/lib/newlib_x86_64/Release -L $(NACL_SDK_ROOT)/toolchain/linux_x86_newlib/x86_64-nacl/usr/lib -Wl,-rpath-link=$(NACL_SDK_ROOT)/toolchain/linux_x86_newlib/x86_64-nacl/usr/lib -L $(NACL_SDK_ROOT)/toolchain/linux_x86_newlib/x86_64-nacl/usr/lib -Wl,--start-group -lSDLmain -lRegal -lppapi_gles2 -lSDL -lz -lppapi -lSDLmain -lSDL_ttf -lfreetype -lbz2 -ltar -lpthread -lRegal -lppapi_gles2 -lnacl_io -lstdc++ -lm -lpthread -lm -lSDLmain -ltar -Wl,--end-group -lnacl_io 
+
+
+$(NAME)	: 	$(OBJS)
+		$(CC) -c $(SRCS) $(CFLAGS)
+		$(CC) -o $(NAME) $(OBJS) $(LDFLAGS)
+		rm *.o
+
+all	:	$(NAME)

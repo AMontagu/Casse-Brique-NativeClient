@@ -1,0 +1,10 @@
+{
+  "program": {
+    // Required: at least one entry
+    // Add one of these for each architecture supported by the application.
+    "i686": { "url": "jeu32.nexe" },
+    "arm": { "url": "jeu32.nexe" },
+    "x86-32": { "url": "jeu32.nexe" },
+    "x86-64": { "url": "jeu64.nexe" }
+  }
+}

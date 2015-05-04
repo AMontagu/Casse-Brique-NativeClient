@@ -1,0 +1,1095 @@
+# depslib dependency file v1.0
+1402952428 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\casse briques projet\main.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"jouer.h"
+	"editeur.h"
+	"fichiers.h"
+
+1325742239 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326114587 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325742239 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_platform.h
+
+1326114594 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326114600 c:\program files (x86)\codeblocks\sdl\include\sdl\begin_code.h
+
+1325742239 c:\program files (x86)\codeblocks\sdl\include\sdl\close_code.h
+
+1325742239 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325742239 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_keysym.h
+
+1325742239 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325742239 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1402954154 c:\users\adrien\documents\cours supinfo 2013-2014\projet\casse briques projet\constantes.h
+
+1402952110 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\casse briques projet\jouer.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	"constantes.h"
+	"jouer.h"
+	"fichiers.h"
+	"bonus.h"
+	"VetD.h"
+
+1402864050 c:\users\adrien\documents\cours supinfo 2013-2014\projet\casse briques projet\jouer.h
+
+1402952209 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\casse briques projet\deplacements.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<math.h>
+	<time.h>
+	"constantes.h"
+	"jouer.h"
+
+1402868234 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\casse briques projet\editeur.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"fichiers.h"
+	"editeur.h"
+
+1402877380 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\casse briques projet\fichier.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"fichiers.h"
+
+1400886038 c:\users\adrien\documents\cours supinfo 2013-2014\projet\casse briques projet\fichiers.h
+
+1400758412 c:\users\adrien\documents\cours supinfo 2013-2014\projet\casse briques projet\editeur.h
+
+1401093238 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\casse brique projet\deplacements.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<math.h>
+	"constantes.h"
+
+1400854581 c:\users\adrien\documents\cours supinfo 2013-2014\projet\casse brique projet\constantes.h
+
+1400880624 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\casse brique projet\editeur.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"fichiers.h"
+	"editeur.h"
+
+1400886036 c:\users\adrien\documents\cours supinfo 2013-2014\projet\casse brique projet\fichiers.h
+
+1400758411 c:\users\adrien\documents\cours supinfo 2013-2014\projet\casse brique projet\editeur.h
+
+1401092658 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\casse brique projet\fichier.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"fichiers.h"
+
+1401092658 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\casse brique projet\main.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"jouer.h"
+	"editeur.h"
+	"fichiers.h"
+
+1400879080 c:\users\adrien\documents\cours supinfo 2013-2014\projet\casse brique projet\jouer.h
+
+1401093279 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\casse brique projet\jouer.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"jouer.h"
+	"fichiers.h"
+
+1397922860 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\version antérieur\avant supression debug\deplacements.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+
+1395429305 c:\users\adrien\documents\cours supinfo 2013-2014\projet\version antérieur\avant supression debug\constantes.h
+
+1397926306 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\version antérieur\avant supression debug\editeur.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"fichiers.h"
+	"editeur.h"
+
+1397926293 c:\users\adrien\documents\cours supinfo 2013-2014\projet\version antérieur\avant supression debug\fichiers.h
+
+1393509705 c:\users\adrien\documents\cours supinfo 2013-2014\projet\version antérieur\avant supression debug\editeur.h
+
+1397927091 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\version antérieur\avant supression debug\fichier.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"fichiers.h"
+
+1395853788 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\version antérieur\avant supression debug\main.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"jouer.h"
+	"editeur.h"
+
+1392747585 c:\users\adrien\documents\cours supinfo 2013-2014\projet\version antérieur\avant supression debug\jouer.h
+
+1397927564 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\version antérieur\avant supression debug\jouer.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"jouer.h"
+	"fichiers.h"
+
+1400886095 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\casse brique projet\vetd.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"VetD.h"
+	"fichiers.h"
+
+1400850835 c:\users\adrien\documents\cours supinfo 2013-2014\projet\casse brique projet\vetd.h
+
+1402952168 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\casse briques projet\vetd.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"VetD.h"
+	"fichiers.h"
+
+1402952110 c:\users\adrien\documents\cours supinfo 2013-2014\projet\casse briques projet\vetd.h
+
+1402942787 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\casse briques projet\bonus.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"jouer.h"
+
+1402921487 c:\users\adrien\documents\cours supinfo 2013-2014\projet\casse briques projet\bonus.h
+
+1401640276 source:d:\prog\pjt\premier bonus\deplacements.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<math.h>
+	"constantes.h"
+	"jouer.h"
+
+1401315314 d:\prog\pjt\premier bonus\constantes.h
+
+1401311166 d:\prog\pjt\premier bonus\jouer.h
+
+1401198416 source:d:\prog\pjt\premier bonus\editeur.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"fichiers.h"
+	"editeur.h"
+
+1400886038 d:\prog\pjt\premier bonus\fichiers.h
+
+1400758412 d:\prog\pjt\premier bonus\editeur.h
+
+1401231134 source:d:\prog\pjt\premier bonus\fichier.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"fichiers.h"
+
+1401194678 source:d:\prog\pjt\premier bonus\main.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"jouer.h"
+	"editeur.h"
+	"fichiers.h"
+
+1401194678 source:d:\prog\pjt\premier bonus\vetd.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"VetD.h"
+	"fichiers.h"
+
+1400850836 d:\prog\pjt\premier bonus\vetd.h
+
+1401641376 source:d:\prog\pjt\premier bonus\bonus.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+
+1401641149 source:d:\prog\pjt\premier bonus\jouer.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"jouer.h"
+	"fichiers.h"
+	"bonus.h"
+	"VetD.h"
+
+1401641105 d:\prog\pjt\premier bonus\bonus.h
+
+1401660942 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\bonus avancé + opti\bonus.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+
+1401652521 c:\users\adrien\documents\cours supinfo 2013-2014\projet\bonus avancé + opti\constantes.h
+
+1401660632 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\bonus avancé + opti\deplacements.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<math.h>
+	"constantes.h"
+	"jouer.h"
+
+1401311166 c:\users\adrien\documents\cours supinfo 2013-2014\projet\bonus avancé + opti\jouer.h
+
+1401652521 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\bonus avancé + opti\editeur.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"fichiers.h"
+	"editeur.h"
+
+1400886038 c:\users\adrien\documents\cours supinfo 2013-2014\projet\bonus avancé + opti\fichiers.h
+
+1400758412 c:\users\adrien\documents\cours supinfo 2013-2014\projet\bonus avancé + opti\editeur.h
+
+1401652757 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\bonus avancé + opti\fichier.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"fichiers.h"
+
+1401659123 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\bonus avancé + opti\jouer.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"jouer.h"
+	"fichiers.h"
+	"bonus.h"
+	"VetD.h"
+
+1401658312 c:\users\adrien\documents\cours supinfo 2013-2014\projet\bonus avancé + opti\bonus.h
+
+1400850836 c:\users\adrien\documents\cours supinfo 2013-2014\projet\bonus avancé + opti\vetd.h
+
+1401194678 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\bonus avancé + opti\main.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"jouer.h"
+	"editeur.h"
+	"fichiers.h"
+
+1401194678 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\bonus avancé + opti\vetd.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"VetD.h"
+	"fichiers.h"
+
+1401726877 source:d:\prog\pjt\bonus fait\deplacements.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<math.h>
+	"constantes.h"
+	"jouer.h"
+
+1401720716 d:\prog\pjt\bonus fait\constantes.h
+
+1401311166 d:\prog\pjt\bonus fait\jouer.h
+
+1401652522 source:d:\prog\pjt\bonus fait\editeur.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"fichiers.h"
+	"editeur.h"
+
+1400886038 d:\prog\pjt\bonus fait\fichiers.h
+
+1400758412 d:\prog\pjt\bonus fait\editeur.h
+
+1401652758 source:d:\prog\pjt\bonus fait\fichier.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"fichiers.h"
+
+1401727616 source:d:\prog\pjt\bonus fait\jouer.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"jouer.h"
+	"fichiers.h"
+	"bonus.h"
+	"VetD.h"
+
+1401666272 d:\prog\pjt\bonus fait\bonus.h
+
+1400850836 d:\prog\pjt\bonus fait\vetd.h
+
+1401194678 source:d:\prog\pjt\bonus fait\main.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"jouer.h"
+	"editeur.h"
+	"fichiers.h"
+
+1401669292 source:d:\prog\pjt\bonus fait\vetd.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"VetD.h"
+	"fichiers.h"
+
+1401726797 source:d:\prog\pjt\bonus fait\bonus.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"jouer.h"
+
+1401812754 source:d:\prog\pjt\bonus fait 2\deplacements.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<math.h>
+	"constantes.h"
+	"jouer.h"
+
+1401720716 d:\prog\pjt\bonus fait 2\constantes.h
+
+1401311166 d:\prog\pjt\bonus fait 2\jouer.h
+
+1401652522 source:d:\prog\pjt\bonus fait 2\editeur.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"fichiers.h"
+	"editeur.h"
+
+1400886038 d:\prog\pjt\bonus fait 2\fichiers.h
+
+1400758412 d:\prog\pjt\bonus fait 2\editeur.h
+
+1401652758 source:d:\prog\pjt\bonus fait 2\fichier.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"fichiers.h"
+
+1401194678 source:d:\prog\pjt\bonus fait 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"jouer.h"
+	"editeur.h"
+	"fichiers.h"
+
+1401809630 source:d:\prog\pjt\bonus fait 2\vetd.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"VetD.h"
+	"fichiers.h"
+
+1400850836 d:\prog\pjt\bonus fait 2\vetd.h
+
+1401811865 source:d:\prog\pjt\bonus fait 2\bonus.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"jouer.h"
+
+1401813020 source:d:\prog\pjt\bonus fait 2\jouer.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"jouer.h"
+	"fichiers.h"
+	"bonus.h"
+	"VetD.h"
+
+1401666272 d:\prog\pjt\bonus fait 2\bonus.h
+
+1402834749 source:d:\prog\pjt\bonus fait 3\deplacements.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<math.h>
+	"constantes.h"
+	"jouer.h"
+
+1402833538 d:\prog\pjt\bonus fait 3\constantes.h
+
+1401311166 d:\prog\pjt\bonus fait 3\jouer.h
+
+1401652522 source:d:\prog\pjt\bonus fait 3\editeur.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"fichiers.h"
+	"editeur.h"
+
+1400886038 d:\prog\pjt\bonus fait 3\fichiers.h
+
+1400758412 d:\prog\pjt\bonus fait 3\editeur.h
+
+1401652758 source:d:\prog\pjt\bonus fait 3\fichier.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"fichiers.h"
+
+1402834491 source:d:\prog\pjt\bonus fait 3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"jouer.h"
+	"editeur.h"
+	"fichiers.h"
+
+1402681230 source:d:\prog\pjt\bonus fait 3\vetd.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"VetD.h"
+	"fichiers.h"
+
+1400850836 d:\prog\pjt\bonus fait 3\vetd.h
+
+1402826201 source:d:\prog\pjt\bonus fait 3\bonus.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"jouer.h"
+
+1402834754 source:d:\prog\pjt\bonus fait 3\jouer.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	"constantes.h"
+	"jouer.h"
+	"fichiers.h"
+	"bonus.h"
+	"VetD.h"
+
+1401666272 d:\prog\pjt\bonus fait 3\bonus.h
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326114588 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_platform.h
+
+1326114594 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326114600 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\begin_code.h
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\close_code.h
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_keysym.h
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325793194 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376127752 c:\program files (x86)\codeblocks\sdl\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1402855558 source:c:\users\adrien\downloads\scoring fait\bonus.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"jouer.h"
+
+1402855544 c:\users\adrien\downloads\scoring fait\constantes.h
+
+1401311166 c:\users\adrien\downloads\scoring fait\jouer.h
+
+1402855544 source:c:\users\adrien\downloads\scoring fait\deplacements.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<math.h>
+	"constantes.h"
+	"jouer.h"
+
+1401652522 source:c:\users\adrien\downloads\scoring fait\editeur.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"fichiers.h"
+	"editeur.h"
+
+1400886038 c:\users\adrien\downloads\scoring fait\fichiers.h
+
+1400758412 c:\users\adrien\downloads\scoring fait\editeur.h
+
+1401652758 source:c:\users\adrien\downloads\scoring fait\fichier.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"fichiers.h"
+
+1402855808 source:c:\users\adrien\downloads\scoring fait\jouer.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	"constantes.h"
+	"jouer.h"
+	"fichiers.h"
+	"bonus.h"
+	"VetD.h"
+
+1401666272 c:\users\adrien\downloads\scoring fait\bonus.h
+
+1400850836 c:\users\adrien\downloads\scoring fait\vetd.h
+
+1402834491 source:c:\users\adrien\downloads\scoring fait\main.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"jouer.h"
+	"editeur.h"
+	"fichiers.h"
+
+1402681230 source:c:\users\adrien\downloads\scoring fait\vetd.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"VetD.h"
+	"fichiers.h"
+
+1402870238 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\version antérieur\test copie .cbp\bonus.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"jouer.h"
+
+1402855544 c:\users\adrien\documents\cours supinfo 2013-2014\projet\version antérieur\test copie .cbp\constantes.h
+
+1402864050 c:\users\adrien\documents\cours supinfo 2013-2014\projet\version antérieur\test copie .cbp\jouer.h
+
+1402920206 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\version antérieur\test copie .cbp\deplacements.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<math.h>
+	"constantes.h"
+	"jouer.h"
+
+1402868234 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\version antérieur\test copie .cbp\editeur.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"fichiers.h"
+	"editeur.h"
+
+1400886038 c:\users\adrien\documents\cours supinfo 2013-2014\projet\version antérieur\test copie .cbp\fichiers.h
+
+1400758412 c:\users\adrien\documents\cours supinfo 2013-2014\projet\version antérieur\test copie .cbp\editeur.h
+
+1402877380 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\version antérieur\test copie .cbp\fichier.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"fichiers.h"
+
+1402873844 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\version antérieur\test copie .cbp\jouer.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	"constantes.h"
+	"jouer.h"
+	"fichiers.h"
+	"bonus.h"
+	"VetD.h"
+
+1401666272 c:\users\adrien\documents\cours supinfo 2013-2014\projet\version antérieur\test copie .cbp\bonus.h
+
+1400850836 c:\users\adrien\documents\cours supinfo 2013-2014\projet\version antérieur\test copie .cbp\vetd.h
+
+1402834491 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\version antérieur\test copie .cbp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"jouer.h"
+	"editeur.h"
+	"fichiers.h"
+
+1402681230 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\version antérieur\test copie .cbp\vetd.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"VetD.h"
+	"fichiers.h"
+
+1402954154 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\rendu final\jeu\bonus.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"jouer.h"
+
+1402954154 c:\users\adrien\documents\cours supinfo 2013-2014\projet\rendu final\jeu\constantes.h
+
+1402864050 c:\users\adrien\documents\cours supinfo 2013-2014\projet\rendu final\jeu\jouer.h
+
+1402952209 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\rendu final\jeu\deplacements.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<math.h>
+	<time.h>
+	"constantes.h"
+	"jouer.h"
+
+1402877380 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\rendu final\jeu\fichier.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"fichiers.h"
+
+1400886038 c:\users\adrien\documents\cours supinfo 2013-2014\projet\rendu final\jeu\fichiers.h
+
+1402953400 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\rendu final\jeu\main.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"jouer.h"
+	"fichiers.h"
+
+1402952168 source:c:\users\adrien\documents\cours supinfo 2013-2014\projet\rendu final\jeu\vetd.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	"constantes.h"
+	"VetD.h"
+	"fichiers.h"
+
+1402952110 c:\users\adrien\documents\cours supinfo 2013-2014\projet\rendu final\jeu\vetd.h
+
